@@ -6,8 +6,19 @@
         <p class="card-text">
           {{ description }}
         </p>
-        <a @click="$emit('edit')" href="#" class="card-link">Edit</a>
-        <a @click="$emit('delete')" href="#" class="card-link">Delete</a>
+
+        <span
+          @click="$emit('edit')"
+          class="material-symbols-outlined card-link"
+        >
+          edit
+        </span>
+        <span
+          @click="$emit('delete')"
+          class="material-symbols-outlined card-link"
+        >
+          cancel
+        </span>
       </div>
     </div>
   </div>
@@ -23,3 +34,21 @@ defineProps({
 //   console.log("delete " + id);
 // }
 </script>
+
+<style>
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 30;
+}
+.material-symbols-outlined:hover {
+  cursor: pointer;
+  font-variation-settings: "FILL" 1, "wght" 100, "GRAD" 0, "opsz" 30;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 48;
+}
+.material-symbols-outlined:hover {
+  cursor: pointer;
+  font-variation-settings: "FILL" 1, "wght" 100, "GRAD" 0, "opsz" 48;
+}
+</style>

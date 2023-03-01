@@ -33,7 +33,7 @@ defineEmits(["update:title", "update:description"]);
         </div>
       </div>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-light submit">Submit</button>
     </form>
   </div>
 </template>
