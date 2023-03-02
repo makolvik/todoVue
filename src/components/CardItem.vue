@@ -6,6 +6,7 @@
         <p class="card-text">
           {{ description }}
         </p>
+        <span class="material-symbols-outlined card-link"> check_circle </span>
 
         <span
           @click="$emit('edit')"
@@ -50,5 +51,12 @@ defineProps({
 .material-symbols-outlined:hover {
   cursor: pointer;
   font-variation-settings: "FILL" 1, "wght" 100, "GRAD" 0, "opsz" 48;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 24;
+}
+.material-symbols-outlined:hover {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 24;
 }
 </style>

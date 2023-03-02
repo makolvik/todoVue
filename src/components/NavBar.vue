@@ -25,11 +25,20 @@ import { RouterLink } from "vue-router";
           <!-- <RouterLink to="/"
             ><a class="nav-link text-white">All Cards</a></RouterLink
           > -->
-          <a href="#" class="nav-link text-white" @click="$emit('create')"
-            >New Card</a
-          >
+
+          <span @click="$emit('create')" class="material-symbols-outlined">
+            add_circle
+          </span>
         </div>
       </div>
     </div>
   </nav>
 </template>
+<style>
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 48;
+}
+.material-symbols-outlined:hover {
+  font-variation-settings: "FILL" 1, "wght" 200, "GRAD" 0, "opsz" 48;
+}
+</style>
