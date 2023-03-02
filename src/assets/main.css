@@ -43,3 +43,18 @@ body {
 .card {
   background-color: rgba(255, 255, 255, 0.7);
 }
+
+.modal-input {
+  border: 0 solid #b7b7b7;
+  border-bottom-width: 3px;
+  background: rgba(252, 252, 252, 0.5);
+  border-radius: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 30;
+}
+.material-symbols-outlined:hover {
+  cursor: pointer;
+  font-variation-settings: "FILL" 1, "wght" 100, "GRAD" 0, "opsz" 30;
+}

@@ -36,27 +36,4 @@ defineProps({
 // }
 </script>
 
-<style>
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 30;
-}
-.material-symbols-outlined:hover {
-  cursor: pointer;
-  font-variation-settings: "FILL" 1, "wght" 100, "GRAD" 0, "opsz" 30;
-}
-
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 48;
-}
-.material-symbols-outlined:hover {
-  cursor: pointer;
-  font-variation-settings: "FILL" 1, "wght" 100, "GRAD" 0, "opsz" 48;
-}
-
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 24;
-}
-.material-symbols-outlined:hover {
-  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 24;
-}
-</style>
+<style></style>

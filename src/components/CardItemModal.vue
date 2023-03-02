@@ -13,7 +13,7 @@ defineEmits(["update:title", "update:description"]);
         <div class="mb-5 form-floating">
           <input
             required
-            class="form-control"
+            class="form-control modal-input"
             id="titleinput"
             :value="title"
             @input="$emit('update:title', $event.target.value)"
@@ -33,7 +33,7 @@ defineEmits(["update:title", "update:description"]);
         </div>
       </div>
 
-      <button type="submit" class="btn btn-light submit">Submit</button>
+      <button type="submit" class="btn btn-outline-secondary">Submit</button>
     </form>
   </div>
 </template>
